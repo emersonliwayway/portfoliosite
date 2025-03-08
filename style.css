@@ -1,0 +1,140 @@
+/* body */
+body {
+  background-color: #f0f3fc;
+  font-family: monospace;
+}
+
+/* page spacing */
+.page {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* navigation bar styling */
+.nav {
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+/* base link style */
+.nav a {
+  color: black;
+  text-align: left;
+  padding-inline: 50px;
+  padding-inline-start: 0%;
+  text-decoration: overline;
+  font-size: large;
+}
+
+/* hover style */
+.nav a:hover {
+  color: #a3c5fb;
+}
+
+/* active page style */
+a.active {
+  color: #477081;
+}
+
+/* page title */
+.ptitle {
+  color: #f784b3;
+}
+
+/* pronoun */
+.pro {
+  line-height: 0%;
+  color: #a3c5fb;
+}
+
+/* site intro */
+.intro {
+  font-size: x-large;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+/* portrait photo positioning */
+.box {
+  float: left;
+  margin-right: 20px;
+}
+
+/* portrait */
+#me {
+  width: 200px;
+}
+
+/* about section */
+.about {
+  border-style: solid;
+  border-color: #477081;
+  padding: 20px;
+  display: inline-block;
+}
+
+.abt {
+  font-size: larger;
+}
+
+#umich {
+  width: 200px;
+}
+
+#korea {
+  width: 250px;
+}
+
+.aff {
+  display: inline-block;
+}
+
+/* home page & photos */
+
+.home {
+  display: inline-flex;
+}
+
+.indexp {
+  border-style: solid;
+  border-color: #477081;
+  padding: 20px;
+  display: flexbox;
+  margin-inline-start: 0%;
+  margin-right: 30px;
+}
+
+.indexp2 {
+  border-style: solid;
+  border-color: #477081;
+  padding: 20px;
+  display: inline-block;
+  margin-inline-start: 0%;
+  margin-right: 30px;
+}
+
+#keyboard {
+  width: 400px;
+}
+
+#yoshi {
+  width: 250px;
+  padding-right: 10px;
+}
+
+#yoshi2 {
+  width: 250px;
+}
+
+/* portfolio page */
+.project {
+  border-style: solid;
+  border-color: #477081;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.projt {
+  color: #477081;
+}
