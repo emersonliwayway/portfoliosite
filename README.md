@@ -2,6 +2,8 @@
 
 This is my personal portfolio site for all future dev projects/design projects.
 
+Project has been updated with more advanced CSS.
+
 - HTML, CSS, JavaScript
 - Home page, about page, portfolio page, assets folder, JavaScript and CSS stylesheet
 

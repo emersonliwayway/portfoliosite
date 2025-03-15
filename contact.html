@@ -16,21 +16,37 @@
       <a href="contact.html" class="active">Contact</a>
     </div>
     <!-- form -->
-    <div class="page">
+    <div class="page" id="formpage">
       <h1 class="ptitle">Contact</h1>
       <div class="form">
-        <h2>For all inquiries, please fill out the form below:</h2>
+        <em
+          ><h2 class="directions">
+            For all inquiries, please fill out the form below:
+          </h2></em
+        >
         <form id="form">
-          <label for="fname">First Name:</label>
-          <input type="text" name="fname" id="fname" />
-          <label for="lname">Last Name:</label>
-          <input type="text" name="lname" id="lname" />
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email" /> <br />
-          <br />
-          <textarea name="message" id="message">Leave a message!</textarea>
-          <input type="submit" value="submit" />
+          <div class="line1">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" />
+          </div>
+          <div class="line2">
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" />
+          </div>
+          <div class="line3">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="line4">
+            <textarea name="message" id="message">Leave a message!</textarea>
+          </div>
+          <div class="line5">
+            <input type="submit" value="Submit" id="submit" />
+          </div>
         </form>
+      </div>
+      <div class="footer" id="cfoot">
+        <p>Developed by Emerson-Liwayway Recto</p>
       </div>
     </div>
   </body>
